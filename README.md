@@ -24,10 +24,6 @@ Accurately identifying customers at risk of churn enables marketing and retentio
 
 ---
 
-## 🏗️ System Architecture
-
-The project follows a **clean, decoupled, and scalable architecture**, designed for maintainability and future deployment:
-
 ## 🏗️ Project Structure & Architecture
 
 The repository follows a **clean separation between experimentation and production**, ensuring scalability, reproducibility, and maintainability.
@@ -53,6 +49,7 @@ The repository follows a **clean separation between experimentation and producti
 ├── README.md             # Project documentation
 └── .gitignore
 
+```
 
 ## 🛠️ Key Engineering Features
 
@@ -84,7 +81,7 @@ The repository follows a **clean separation between experimentation and producti
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-
+```
 
 ### 2️⃣Run Full Pipeline (Train & Package)
 
@@ -100,13 +97,17 @@ Executes:
 
 - Serialization of production-ready artifacts
 
-`python main.py`
+```powershell
+python main.py
+```
 
 ### 3️⃣ Run Robustness Tests
 
-`python -m pytest`
+```powershell
+python -m pytest
+```
 
-##📊 Model Specifications
+## 📊 Model Specifications
 
 - Algorithm: Logistic Regression
 
@@ -122,72 +123,12 @@ Executes:
 
 
 
-##✍️ Author
+## ✍️ Author
 
-Herbert (Eriberto)
-Data & Marketing Analytics | Machine Learning | Business-Oriented AI
+**Heriberto** *Data & Marketing Analytics | Machine Learning | Business-Oriented AI*
 
 🔗 Connect with me on professional networks:
 
-- LinkedIn: 
-
-- GitHub: 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/heriberto-turpo-quiro/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/herbertturpo)
 

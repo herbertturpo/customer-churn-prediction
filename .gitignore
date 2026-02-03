@@ -19,10 +19,14 @@ models/*.joblib
 .ipynb_checkpoints/
 
 # ======================
-# PYTHON
+# PYTHON & TESTING
 # ======================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
 
 # ======================
 # ENVIRONMENT
@@ -30,6 +34,21 @@ __pycache__/
 .env
 .venv/
 venv/
+ENV/
+
+# ======================
+# IDEs (VS Code / PyCharm)
+# ======================
+.vscode/
+.idea/
+*.swp
+
+# ======================
+# LOGS & REPORTS
+# ======================
+*.log
+reports/
+!reports/.gitkeep
 
 # ======================
 # OS
